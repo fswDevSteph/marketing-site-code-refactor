@@ -12,7 +12,7 @@
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <nav>
-                <ul>
+                <ul> <!--All nav links link to respective content section-->
                     <li>
                         <a href="#search-engine-optimization">Search Engine Optimization</a>
                     </li>
@@ -27,12 +27,12 @@
         </div>
     </header>
     <div class="hero"></div>
-    <main class="content">
-
+    <main class="content"> <!--Added main section-->
+        <!--Added article tags tp each section that can be stand alone-->
         <article>
             <div id="search-engine-optimization" class="search-engine-optimization">
-                <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
-                    alt="Image of a laptop and coffee with stationary items around it" class="float-right" />
+                <img src="./assets/images/search-engine-optimization.jpg"
+                    alt="Image of a laptop and coffee with stationary items around it" class="float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business as
@@ -43,10 +43,13 @@
                 </p>
             </div>
         </article>
+
         <article>
             <div id="online-reputation-management" class="online-reputation-management">
+                <!--I dont know how to fix the overflow here-->
                 <img src="./assets/images/online-reputation-management.jpg"
-                    alt="image of a design being created on a laptop and someones hand holding a mobile device" />
+                    alt="image of a design being created on a laptop and someones hand holding a mobile device"
+                    class="float-left" /> <!--Removed a "float-right" class-->
                 <h2>Online Reputation Management</h2>
                 <p>
                     The web is full of opinions, and some of these can be negative. Social media allows anyone with
@@ -106,12 +109,13 @@
         </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer"> <!--added footer tag-->
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
 </body>
+<!--will use better repo name going forward-->
 
 </html>
